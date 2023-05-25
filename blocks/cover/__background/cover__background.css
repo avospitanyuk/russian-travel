@@ -1,5 +1,5 @@
 .cover__background{
-    margin: 92px auto 0;
+    margin: 0 auto;
     padding: 0;
     aspect-ratio: 1/1;
     max-width: 1184px;
@@ -26,4 +26,22 @@
 }
 .cover__background:hover::after{
     opacity: 0.5;
+}
+@media screen and (max-width: 1024px){
+    .cover__background{
+        max-width: 1024px;
+        max-height: 640px;
+    }
+}
+@media screen and (max-width: 768px){
+    .cover__background{
+        max-width: 768px;
+        max-height: 480px;
+    }
+}
+@media screen and (max-width: 320px){
+    .cover__background{
+        max-width: 320px;
+        max-height: 200px;
+    }
 }

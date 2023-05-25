@@ -1,14 +1,13 @@
 .place__link{
     max-width: 456px;
     max-height: 22px;
-    column-gap: 12px;
     font-family: "Inter", "Arial","Helvetica",sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
-    margin: 0;
+    margin: 12px 0 0;
     padding: 0;
     color: #FFFFFF;
     opacity: 1;
@@ -16,4 +15,14 @@
 }
 .place__link:hover{
     opacity: 0.5;
+}
+@media screen and (max-width: 768px){
+    .place__link{
+        max-width: 352px;
+    }
+}
+@media screen and (max-width: 768px){
+    .place__link{
+        max-width: 288px;
+    }
 }
