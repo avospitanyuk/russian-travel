@@ -14,7 +14,7 @@
 @media screen and (max-width: 1024px) {
   .place {
     max-width: 928px;
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
@@ -22,7 +22,7 @@
   .place {
     margin: 0 0 73px;
     max-width: 720px;
-    max-height: 581px;
+    min-height: 581px;
     column-gap: 28px;
   }
 }
@@ -31,7 +31,7 @@
   .place {
     margin: 0 0 50px;
     max-width: 320px;
-    max-height: 1042px;
+    min-height: 1042px;
     grid-template-columns: 1fr;
     column-gap: 0px;
     row-gap: 32px;

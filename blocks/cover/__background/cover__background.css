@@ -1,9 +1,9 @@
-.cover__background {
+.cover__link {
   margin: 0 auto;
   padding: 0;
   aspect-ratio: 1/1;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   width: 100%;
   position: relative;
   object-fit: cover;
@@ -15,7 +15,7 @@
   text-decoration: none;
 }
 
-.cover__background::after {
+.cover__link::after {
   content: "";
   opacity: 0.5;
   transition: opacity 0.3s ease;
@@ -26,27 +26,27 @@
   z-index: 0;
 }
 
-.cover__background:hover::after {
+.cover__link:hover::after {
   opacity: 0.5;
 }
 
 @media screen and (max-width: 1024px) {
-  .cover__background {
+  .cover__link {
     max-width: 1024px;
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .cover__background {
+  .cover__link {
     max-width: 768px;
-    max-height: 480px;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover__background {
+  .cover__link {
     max-width: 320px;
-    max-height: 200px;
+    min-height: 200px;
   }
 }

@@ -14,8 +14,8 @@
       <img class="header__logo" src="./images/header-logo.svg"
         alt="Схематичное изображение материка на котором находится Россия">
       <ul class="header__lang-links">
-        <li class="header__lang-link"><a class="header__lang-link header__lang-link_ru" href="#">Ru</a></li>
-        <li class="header__lang-link"><a class="header__lang-link header__lang-link_en" href="#">En</a></li>
+        <li class="header__lang-link"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+        <li class="header__lang-link"><a class="header__lang-link" href="#">En</a></li>
       </ul>
     </header>
     <main class="content">
@@ -34,12 +34,12 @@
           красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__list intro__list_numbers">11</span></li>
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_numbers">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_numbers">16</span></li>
-          <li>Природных заповедников <span class="intro__list intro__list_numbers">105</span></li>
-          <li>Аэропортов <span class="intro__list intro__list_numbers">241</span></li>
+        <ul class="intro__info">
+          <li class="intro__list">Часовых поясов <span class="intro__span-accent">11</span></li>
+          <li class="intro__list">Объектов природного наследия ЮНЕСКО <span class="intro__span-accent">12</span></li>
+          <li class="intro__list">Объектов культурного наследия ЮНЕСКО <span class="intro__span-accent">16</span></li>
+          <li class="intro__list">Природных заповедников <span class="intro__span-accent">105</span></li>
+          <li class="intro__list">Аэропортов <span class="intro__span-accent">241</span></li>
         </ul>
       </section>
       <section class="photo-grid">
@@ -74,8 +74,8 @@
         <article class="place" aria-label="Куршская коса">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank" >park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Фотография Куршской косы">
           <div>
@@ -91,8 +91,8 @@
         <article class="place" aria-label="Кольский">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National
               Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Фотография полуострова Кольский зимой">
@@ -110,8 +110,8 @@
         <article class="place" aria-label="Алтай">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" >YouTube</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="Фотография открытого ноутбука на фоне леса">
           <div>
@@ -127,8 +127,8 @@
         <article class="place" aria-label="Зимний Байкал">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg"
             alt="Фотография замершего озера Байкал крупным планом">
@@ -145,8 +145,8 @@
         <article class="place" aria-label="Карелия">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+            <p class="place__url-heading">url</p>
+            <a class="place__link" href="http://vodlozero.ru" target="_blank" >http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="Фотография озера в Карелии на закате">
           <div>
@@ -160,7 +160,7 @@
         </article>
       </section>
       <section class="cover">
-        <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
@@ -168,7 +168,7 @@
       </section>
     </main>
     <footer class="footer">
-      <div>
+      <nav>
         <ul class="footer__links">
           <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
           <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
@@ -176,7 +176,7 @@
           <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
           <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
         </ul>
-      </div>
+      </nav>
       <p class="footer__copyright">@2023 Антонина</p>
     </footer>
   </div>
