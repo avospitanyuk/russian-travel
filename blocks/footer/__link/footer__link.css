@@ -1,21 +1,23 @@
-.footer__link{
-    color: #FFFFFF;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    opacity: 1;
-    transition: opacity 0.3s ease;
+.footer__link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
-.footer__link:hover{
-    opacity: 0.5;
+
+.footer__link:hover {
+  opacity: 0.5;
 }
-@media screen and (max-width: 320px){
-    .footer__link{
-        max-width: 74px;
-        max-height: 24px;
-        font-size: 24px;
-        line-height: 24px;
-    }
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    max-width: 74px;
+    max-height: 24px;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }

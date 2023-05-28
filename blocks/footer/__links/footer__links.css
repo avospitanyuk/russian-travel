@@ -1,15 +1,16 @@
-.footer__links{
-    margin: 92px 0 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    gap: 18px;
+.footer__links {
+  margin: 92px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 18px;
 }
-@media screen and (max-width: 320px){
-    .footer__links{
-        max-width: 186px;
-        max-height: 310px;
-        flex-direction: column;
-        margin-top: 48px;
-    }
+
+@media screen and (max-width: 320px) {
+  .footer__links {
+    max-width: 186px;
+    max-height: 310px;
+    flex-direction: column;
+    margin-top: 48px;
+  }
 }
