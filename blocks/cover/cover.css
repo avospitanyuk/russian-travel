@@ -2,17 +2,9 @@
   margin: 0 auto;
   padding: 0;
   max-width: 1184px;
-  min-height: 740px;
   width: calc(100% - (2*48px));
   display: flex;
   flex-direction: column;
-  position: relative;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-
-.cover:hover {
-  opacity: 0.5;
 }
 
 @media screen and (max-width: 1024px) {

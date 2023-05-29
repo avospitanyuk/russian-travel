@@ -1,25 +1,4 @@
 .intro {
-  margin: 0 auto;
   max-width: 690px;
-  width: calc(100% - (148px + 442px));
-}
-
-@media screen and (max-width: 1024px) {
-  .intro {
-    width: calc(100% - (48px + 286px));
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    max-width: 720px;
-    width: calc(100% - 48px);
-    padding-left: 0;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .intro {
-    width: calc(100% - (2*16px));
-  }
+  height: auto;
 }

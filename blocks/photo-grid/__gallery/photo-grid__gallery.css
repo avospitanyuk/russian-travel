@@ -2,10 +2,10 @@
   margin: 92px 0 0;
   padding: 0;
   display: grid;
+  list-style: none;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   width: 100%;
-  list-style: none;
 }
 
 @media screen and (max-width: 1024px) {
