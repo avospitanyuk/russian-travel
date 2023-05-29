@@ -2,8 +2,10 @@
   margin: 0 auto;
   padding: 0;
   max-width: 1184px;
-  max-height: 740px;
-  width: calc(100% - 96px);
+  min-height: 740px;
+  width: calc(100% - (2*48px));
+  display: flex;
+  flex-direction: column;
   position: relative;
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -15,25 +17,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    max-width: 1024px;
-    max-height: 640px;
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover {
-    max-width: 768px;
-    max-height: 480px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .cover {
-    max-width: 320px;
-    max-height: 200px;
-    width: 100%;
-    object-fit: cover;
   }
 }
