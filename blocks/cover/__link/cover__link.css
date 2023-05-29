@@ -1,18 +1,17 @@
 .cover__link {
   margin: 0 auto;
   padding: 0;
-  aspect-ratio: 1/1;
   max-width: 1184px;
   min-height: 740px;
   width: 100%;
   background-image: url(../../../images/cover-trains.jpg);
   background-position: center;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-decoration: none;
   position: relative;
+  object-fit: cover;
   z-index: 0;
 }
 

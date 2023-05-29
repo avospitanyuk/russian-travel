@@ -5,10 +5,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 122%;
+  line-height: 22px;
   text-decoration-line: underline;
-  color: #FFFFFF;
-  opacity: 1;
+  color: #FFF;
   transition: opacity 0.3s ease;
 }
 

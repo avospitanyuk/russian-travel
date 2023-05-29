@@ -8,18 +8,12 @@
   font-size: 72px;
   line-height: 106%;
   text-align: center;
-  color: #FFFFFF;
+  color: #FFF;
   position: relative;
   z-index: 2;
 }
 
 @media screen and (max-width: 505px) {
-  .cover__title {
-    font-size: 12vw;
-  }
-}
-
-@media screen and (max-width: 480px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;
