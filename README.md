@@ -9,7 +9,7 @@
  - Grid-layout
  - Flexbox
  - Адаптивная верстка под разную ширину экрана
- ### [Ссылка на проект:](https://avospitanyuk.github.io/russian-travel/)
+ ### [Ссылка на проект:Путешествие по России](https://avospitanyuk.github.io/russian-travel/)
  ### Фигма
  - [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
