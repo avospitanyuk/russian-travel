@@ -1,24 +1,24 @@
-.intro__indent {
+.content__intro {
   margin: 92px 442px 92px 148px;
   padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .intro__indent {
+  .content__intro {
     margin-left: 48px;
     margin-right: 286px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .intro__indent {
+  .content__intro {
     margin: 88px auto;
     width: calc(100% - (2*24px));
   }
 }
 
 @media screen and (max-width: 480px) {
-  .intro__indent {
+  .content__intro {
     margin: 64px auto;
     width: calc(100% - (2*16px));
   }

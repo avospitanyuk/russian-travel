@@ -33,6 +33,7 @@
   .place__title {
     max-width: 480px;
     width: calc(100% - (2*16px));
+    margin: 0 auto;
     font-size: 32px;
     line-height: 109%;
   }
