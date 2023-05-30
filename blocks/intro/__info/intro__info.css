@@ -1,7 +1,6 @@
 .intro__info {
-  margin: 33px 0 0;
+  margin: 32px 0 0;
   padding: 0;
-  transform: translate(0,-0.97px);
 }
 
 @media screen and (max-width: 320px) {

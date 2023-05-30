@@ -1,9 +1,15 @@
 .footer__links {
-  margin: 92px 0 0;
+  margin: 98px 0 0;
   padding: 0;
   list-style: none;
   display: flex;
   gap: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__links {
+    margin-top: 91px;
+  }
 }
 
 @media screen and (max-width: 480px) {
