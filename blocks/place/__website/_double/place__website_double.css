@@ -1,3 +1,9 @@
 .place__website_double {
   transform: translate(-5px, -11px);
 }
+
+@media screen and (max-width: 768px) {
+  .place__website_double {
+    transform: translate(-2px, 18px);
+  }
+}

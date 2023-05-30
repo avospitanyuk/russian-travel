@@ -1,0 +1,10 @@
+.place__paragraph_double {
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph_double {
+    transform: translate(-2px,33px);
+    margin-bottom: 53px;
+  }
+}
