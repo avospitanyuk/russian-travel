@@ -33,10 +33,11 @@
 
 @media screen and (max-width: 480px) {
   .place__title {
+    margin: 0 auto;
     max-width: 480px;
     width: calc(100% - (2*16px));
-    margin: 0 auto;
     font-size: 32px;
-    line-height: 109%;
+    line-height: 35px;
+    transform: translate(0px,-6px);
   }
 }

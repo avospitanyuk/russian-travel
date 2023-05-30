@@ -31,5 +31,6 @@
     padding-left: 16px;
     flex-direction: column;
     align-items: flex-start;
+    row-gap: 32px;
   }
 }

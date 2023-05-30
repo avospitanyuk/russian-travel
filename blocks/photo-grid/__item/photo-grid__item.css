@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   min-width: 284px;
-  max-width: 100%;
+  width: 100%;
   min-height: 213px;
-  object-fit: cover;
+  object-fit: contain;
 }
