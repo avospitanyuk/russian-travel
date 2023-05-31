@@ -1,27 +1,26 @@
-.place__item-kolsky {
-  margin: 80px 0 0;
+.places__place-kosa {
+  margin: 0;
   padding: 0;
   column-gap: 23px;
   row-gap: 48px;
 }
 
 @media screen and (max-width: 1024px) {
-  .place__item-kolsky {
+  .places__place-kosa {
     column-gap: 16px;
-    row-gap: 47px;
+    row-gap: 49px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place__item-kolsky {
-    margin-top: 46px;
+  .places__place-kosa {
+    column-gap: 18px;
     row-gap: 48px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .place__item-kolsky {
-    margin-top: 75px;
-    row-gap: 32px;
+  .places__place-kosa {
+    row-gap: 33px;
   }
 }
