@@ -1,0 +1,26 @@
+.place__item-kosa {
+  margin: 0;
+  padding: 0;
+  column-gap: 23px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__item-kosa {
+    column-gap: 16px;
+    row-gap: 49px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__item-kosa {
+    column-gap: 18px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__item-kosa {
+    row-gap: 33px;
+  }
+}

@@ -1,0 +1,28 @@
+.place__item-altai {
+  margin: 80px 0 0;
+  padding: 0;
+  column-gap: 23px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__item-altai {
+    margin-top: 81px;
+    column-gap: 16px;
+    row-gap: 47px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__item-altai {
+    margin-top: 72px;
+    row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__item-altai {
+    margin-top: 24px;
+    row-gap: 32px;
+  }
+}

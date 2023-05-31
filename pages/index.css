@@ -32,6 +32,11 @@
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__item-kosa/place__item-kosa.css);
+@import url(../blocks/place/__item-kolsky/place__item-kolsky.css);
+@import url(../blocks/place/__item-altai/place__item-altai.css);
+@import url(../blocks/place/__item-baikal/place__item-baikal.css);
+@import url(../blocks/place/__item-karelia/place__item-karelia.css);
 @import url(../blocks/places/__place/places__place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
