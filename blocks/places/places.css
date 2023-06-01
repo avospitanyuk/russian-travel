@@ -1,20 +1,20 @@
 .places {
   margin: 0 auto;
-  padding: 82px 0 85px;
+  padding: 92px 0 85px;
   width: calc(100% - (2*148px));
 }
 
 @media screen and (max-width: 1024px) {
   .places {
     width: calc(100% - (2*48px));
-    padding: 80px 0 93px;
+    padding: 92px 0 93px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
     width: calc(100% - (2*24px));
-    padding: 117px 0 89px;
+    padding: 134px 0 89px; /* при корректном тайтле top=88px*/
   }
 }
 
@@ -33,6 +33,6 @@
 @media screen and (max-width: 480px) {
   .places {
     width: 100%;
-    padding: 51px 0 64px;
+    padding: 67px 0 92px; /* слово "к мотоциклу" в блоке Байкал заваливает отступ либо на ширине 768 либо 320 */
   }
 }

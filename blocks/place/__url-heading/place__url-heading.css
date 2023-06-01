@@ -9,7 +9,7 @@
   text-transform: uppercase;
   color: #AAA;
 }
-
+/*
 @media screen and (max-width: 1024px) {
   .place__url-heading {
     max-width: 456px;
@@ -26,4 +26,4 @@
   .place__url-heading {
     max-width: 288px;
   }
-}
+} */
